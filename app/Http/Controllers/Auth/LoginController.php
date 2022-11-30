@@ -40,7 +40,8 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 
-    protected function authenticated(Request $request, $user) {
+    protected function authenticated(Request $request, $user)
+    {
         if ($user->is_active != 1) {
             Auth::logout();
 
@@ -49,6 +50,6 @@ class LoginController extends Controller
             ]);
         }
 
-        return next($request);
+        // return next($request);
     }
 }

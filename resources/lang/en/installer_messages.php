@@ -7,7 +7,7 @@ return [
      * Shared translations.
      *
      */
-    'title' => 'Triangle POS',
+    'title' => 'Tera Pos',
     'next' => 'Next Step',
     'back' => 'Previous',
     'finish' => 'Install',
@@ -22,7 +22,7 @@ return [
      */
     'welcome' => [
         'templateTitle' => 'Welcome',
-        'title'   => 'Install Triangle POS',
+        'title'   => 'Install Tera Pos',
         'message' => 'Easy Installation and Setup Wizard.',
         'next'    => 'Check Requirements',
     ],
